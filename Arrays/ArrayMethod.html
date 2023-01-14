@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    //tostring()
+    let n =[1,4,5,9,6,7]
+    console.log(n);
+    let a = n.toString(); // converts array into string
+    console.log(a);
+
+    //joins
+    n.join("-")
+    console.log(n);
+
+    //pop - remove the element at  last position
+    n.pop();
+    console.log(n);
+    //push =add element at last postion
+    n.push(13)
+    console.log(n);
+
+    //shift = remove the element at fisrt position af array
+
+    n.shift()
+    console.log(n);
+
+    //unshift =  add the element  at first position of an array
+    n.unshift(23)
+    console.log(n);
+
+    //delete =  by using delete we can delete element of an array  pasing over there index value
+   
+    console.log( delete n[1]);
+    console.log(n);
+
+    // concat = adding an array  in to  another array
+
+    let s  =[3,5,6,"Pravin","Mayuri"];
+    let p = ["Walwa","sangli","Ashta","Kolhapur"]
+
+    console.log(s.concat(p));
+   </script> 
+</body>
+</html>
